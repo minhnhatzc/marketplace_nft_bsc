@@ -44,7 +44,7 @@ A user can buy NFTs which someone else offered. This will require paying the req
 
 #### Sell NFT
 
-Users can sell their NFT by specifying its price (in MATIC). If someone fulfills this offer, then the NFT and it's ownership is transferred to the new owner.
+Users can sell their NFT by specifying its price (in BNB). If someone fulfills this offer, then the NFT and it's ownership is transferred to the new owner.
 
 ### Connect to Mumbai Testnet
 
