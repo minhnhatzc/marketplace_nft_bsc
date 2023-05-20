@@ -60,7 +60,7 @@ Another way to connect to Mumbai Testnet is by using the following link: https:/
 
 ### Getting test BSC
 
-You can get up to 2 MATIC/day by pasting your address here: https://testnet.bnbchain.org/faucet-smart
+You can get up to BNB by pasting your address here: https://testnet.bnbchain.org/faucet-smart
 
 
 ## Developers
