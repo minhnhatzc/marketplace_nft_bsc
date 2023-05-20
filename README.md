@@ -2,7 +2,7 @@
 <img src="/assets/logo02.png" alt="Alt text logo" title="Logo" width="80px" height="80px">
 </p>
 
-# Polyplace
+# NFT Marketplace
 
 An open decentralized NFT Marketplace built with Solidity and Next.js, powered by Polygon Technologies. It basically is an open platform where users can mint and trade their own NFTs.
 
@@ -22,16 +22,13 @@ An open platform where users can mint their own NFTs and list them on a Marketpl
 - A smart contract which represents the NFT Marketplace and contains all the logic to make offers, execute offers...
 - A Next.js front-end application as a user interface.
 
-`NFTMarketplace` Polygon(Mumbai Testnet) smart contract address:
+`NFTMarketplace` Binance SmartChain(BSC Testnet) smart contract address:
 
 https://testnet.bscscan.com/address/0x6e7c1f60eD4De678dE5441F582b474f0fE0247F3
-### Demo video
-
-https://www.youtube.com/watch?v=kVIb7MGJ53k&t=36s
 
 ### Project details
 
-Users can access the application via web-browser, and must have the Metamask wallet installed. The interface, built with Next.js, relies on the ethers.js library to communicate with the smart contracts through Metamask. This means that the data reflected on the front-end application is fetched from the Polygon blockchain. Each action performed by the user (mint an NFT, sell NFT, buy NFT...) creates a transaction on Polygon, which will requires Metamask confirmation and a small fee, and this transaction will permanently modify the state of the NFTMarketplace smart contracts. On top of it, user's NFT Metadata will be uploaded to the IPFS, generating a hash which will be permanently recorded on the blockchain to prove ownership.
+Users can access the application via web-browser, and must have the Metamask wallet installed. The interface, built with Next.js, relies on the ethers.js library to communicate with the smart contracts through Metamask. This means that the data reflected on the front-end application is fetched from the Polygon blockchain. Each action performed by the user (mint an NFT, sell NFT, buy NFT...) creates a transaction on BSC, which will requires Metamask confirmation and a small fee, and this transaction will permanently modify the state of the NFTMarketplace smart contracts. On top of it, user's NFT Metadata will be uploaded to the IPFS, generating a hash which will be permanently recorded on the blockchain to prove ownership.
 
 ### Features
 
@@ -57,13 +54,13 @@ Then you should configure Metamask to connect to your local blockchain. To do it
 - Open Metamask.
 - Open the Network Configuration panel.
 - Open Custom RPC.
-- Connect to Mumbai Testnet.
+- Connect to BSC Testnet.
 
 Another way to connect to Mumbai Testnet is by using the following link: https://chainlist.org/ and add the network of your choice by simply connecting your wallet.
 
-### Getting test MATIC
+### Getting test BSC
 
-You can get up to 2 MATIC/day by pasting your address here: https://mumbaifaucet.com/.
+You can get up to 2 MATIC/day by pasting your address here: [https://mumbaifaucet.com/.](https://testnet.bnbchain.org/faucet-smart)
 
 
 ## Developers
@@ -158,7 +155,7 @@ An instance of Polyplace will be up and running on your local environment.
 
 ## Resources
 
-- [polygon.technology](https://polygon.technology/)
+- [bsc.technology](https://academy.binance.com/en)
 - [Solidity](https://docs.soliditylang.org/en/v0.8.15/)
 - [node.js](https://nodejs.org/)
 - [ethers.js](https://docs.ethers.io/v5/)
