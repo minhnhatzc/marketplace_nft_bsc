@@ -4,7 +4,7 @@
 
 # NFT Marketplace
 
-An open decentralized NFT Marketplace built with Solidity and Next.js, powered by Polygon Technologies. It basically is an open platform where users can mint and trade their own NFTs.
+An open decentralized NFT Marketplace built with Solidity and Next.js, powered by BSC Technologies. It basically is an open platform where users can mint and trade their own NFTs.
 
 
 ## Table of Contents
